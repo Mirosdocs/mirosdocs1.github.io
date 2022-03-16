@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: My Miros documentation
+site_url: https://mymirosnewsletter.com
+site_author: Aurelia
+site_description: This is a collection of documentation references to be used internally in Miros
+
+# Repository
+repo_name: aureliamiros/mkdocs-material
+repo_url: https://github.com/aureliamiros/mkdocs-material
+edit_uri: ""
+
+# Page tree
+nav:
+  - Home: index.md
+  - RangeFinder: RangeFinder.md
+  - WaveRadar: waveradar.md
+  - WaveWeather: waveweather.md
+  - NewGenRadar: newgenradar.md
+theme:
+  name: material
+
+# Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - content.code.annotate
+    # - content.tabs.link
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
