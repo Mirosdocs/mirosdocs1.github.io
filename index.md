@@ -1,7 +1,14 @@
 # Miros Technology newsletter
 
 This is an summary of the Technology updates. Details can be found under each topic on the Navigation Menu.
-
+# Page tree
+nav:
+  - Home: index.md
+  - RangeFinder: RangeFinder.md
+  - WaveRadar: waveradar.md
+  - WaveWeather: waveweather.md
+  - NewGenRadar: newgenradar.md
+  
 ## RangeFinder 
 
 
